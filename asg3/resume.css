@@ -1,0 +1,308 @@
+*
+{
+  margin: 0px;
+  padding: 0;
+}
+body
+{
+  background-image: url("page-bg.jpg");
+}
+.main
+{
+  margin:auto;
+  height:100%;
+  width:75%;
+  box-sizing: border-box;
+}
+.img1
+{
+  width: 250px;
+  height: 35px;
+}
+.one
+{
+  top:0;
+  right:0px;
+  left:100px;
+  z-index:2;
+  position: fixed;
+  width: 500px;
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  display: flex;
+  background-color: black;
+  color:white;
+  width:100%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.wrapper
+{
+  background-image: url("body-bg.PNG");
+  margin-top: 150px;
+  z-index: -2;
+
+}
+#flex1
+{
+  margin: 5px;
+  padding: 20px;
+  padding-top:20px;
+  padding: 5px;
+}
+#flex
+{
+  opacity: .5;
+  margin: 10px;
+  padding-top:18px;
+
+}
+.img2
+{
+  margin-left: 20px;
+  margin-top: 20px;
+  width:500px;
+  height: 20px;
+}
+
+.two
+{
+  padding-left: 10px;
+  padding-right: 25px;
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+#flex2
+{
+  margin:7px;
+  padding-top:40px;
+  color:white;
+}
+#flex3
+{
+  opacity: .5;
+  font-size: 300%;
+  margin:5px;
+  padding:20px;
+  padding-bottom: 5px;
+  color:white;
+  flex-grow: 1;
+}
+hr
+{
+  width:90%;
+  margin: auto;
+  opacity: .5;
+  height: 10px;
+  background-color:silver;
+}
+.three
+{
+  flex-wrap: wrap;
+  padding: 10px;
+  display: flex;
+}
+#flex4
+{
+  margin: 5px;
+}
+.img2
+{
+  width:250px;
+  height: 300px;
+}
+.four
+{
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+
+}
+#flex5
+{
+  margin: 5px;
+  flex-grow: 1;
+}
+#flex6
+{
+  flex-grow: 1;
+  margin: 5px;
+}
+#flex7
+{
+  margin: 5px;
+}
+.img3
+{
+  margin-left:40px;
+  float:left;
+  width:100px;
+  height: 100px;
+}
+.five
+{
+  opacity: .5;
+  padding: 20px;
+  padding-left: 30px;
+  font-size: 300%;
+  color:white;
+}
+.five::after
+{
+  content: "";
+  position: absolute;
+  width:80%;
+  height:13px;
+  margin-top: 70px;
+  margin-left: -19%;
+  background-color: silver;
+
+}
+.six
+{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+
+
+}
+#flex8
+{
+  background-color: green;
+  height:300px;
+  flex-grow: 1;
+  margin:5px;
+}
+.seven
+{
+  opacity: .5;
+  padding: 20px;
+  padding-left: 30px;
+  font-size: 300%;
+  color:white;
+}
+.eight
+{
+  display: flex;
+  flex-wrap: wrap;
+  padding:5px;
+}
+#flex9
+{
+  flex-grow: 1;
+  margin:10px;
+}
+.img4
+{
+  width:220px;
+  height: 200px;
+}
+.nine
+{
+  opacity: .5;
+  padding: 20px;
+  padding-left: 30px;
+  font-size: 300%;
+  color:white;
+}
+.ten
+{
+
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+#flex10
+{
+  padding: 20px;
+  margin: 5px;
+  width:400px;
+  height: 400px;
+  flex-grow: 1;
+}
+input{
+  outline: none;
+  padding: 10px;
+  margin: 10px;
+  color:white;
+  background-color: black;
+}
+input[type=text]
+{
+  border: 2px solid black;
+  box-sizing: border-box;
+  padding-left: 40px;
+  background-image: url("icon-user.png");
+  background-repeat: no-repeat;
+  background-position: 8px 8px;
+}
+input[type=email]
+{
+  border: 2px solid black;
+  box-sizing: border-box;
+  text-indent: 40px;
+  background-image: url("icon-mail.png");
+  background-repeat: no-repeat;
+  background-position: 8px 8px;
+}
+textarea
+{
+  outline:none;
+  border: 2px solid black;
+  box-sizing: border-box;
+  width:50%;
+  height: 100px;
+  margin: 10px;
+  background-color: black;
+  color:white;
+  background-image: url("icon-message.png");
+  background-position: 8px 8px;
+  background-repeat: no-repeat;
+  text-indent:40px;
+  padding-top: 8px;
+  resize: none;
+}
+input[type=text]:focus
+{
+  width: 100%;
+}
+input[type=email]:focus
+{
+  width: 100%;
+}
+textarea:focus
+{
+  width: 100%;
+}
+input[type="submit"]
+{
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: black;
+  cursor: pointer;
+  padding: 10px;
+  width: auto;
+}
+.eleven
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+#flex11
+{
+
+  padding:20px;
+  box-sizing: border-box;
+  margin:5px;
+}
+.img5
+{
+  margin: 5px;
+}

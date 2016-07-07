@@ -1,0 +1,48 @@
+body{
+  background-color: lightblue;
+}
+a
+{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+a:hover
+{
+  background-color: yellow;
+  font-size:120%;
+}
+.hov
+{
+  font-size: 120%;
+  width:200px;
+  margin: auto;
+  margin-top: 50px;
+}
+.res
+{
+  position: relative;
+  display: none;
+  width:200px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 15px;
+}
+.hov:hover .res
+{
+  display:block;
+}
+.tr
+{
+  position: absolute;
+  width: 0px;
+  height: 0;
+  border: 20px solid transparent;
+  border-bottom-color:red;
+  margin-top:-165px;
+  margin-left: 140px;
+}
